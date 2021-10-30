@@ -11,3 +11,7 @@ My zsh config
 
 ## Usage
 
+```bash
+ln -s ~/.zshrc PATH/TO/reed/zshrc
+source ~/.zshrc
+```
