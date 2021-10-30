@@ -12,7 +12,7 @@ if ! [ -f "ANTIGEN" ]; then
     echo "installing antigen"
     curl -L git.io/antigen > $ANTIGEN
 fi
-source ANTIGEN
+source $ANTIGEN
 
 # plugin
 antigen use oh-my-zsh
