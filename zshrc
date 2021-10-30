@@ -10,7 +10,7 @@ SAVEHIST=1000
 ANTIGEN=${HOME}/.antigen.sh
 if ! [ -f "ANTIGEN" ]; then
     echo "installing antigen"
-    curl -L git.io/antigen > ANTIGEN
+    curl -L git.io/antigen > $ANTIGEN
 fi
 source ANTIGEN
 
@@ -21,6 +21,7 @@ antigen bundle git
 antigen bundle fzf
 
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle djui/alias-tips
 
 antigen theme ys
 
