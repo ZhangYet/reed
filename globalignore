@@ -5,6 +5,5 @@
 .venv/*
 
 # others
-linux/*
-linux-shopee.git/*
+
 
