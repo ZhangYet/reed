@@ -24,8 +24,6 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle djui/alias-tips
 antigen bundle arzzen/calc.plugin.zsh
 
-
-
 antigen theme ys
 
 # antigen apply
@@ -43,3 +41,5 @@ export PATH=${PATH}:~/.user_bin
 
 # alias
 [ -f ~/.alias ] && source ~/.alias
+
+

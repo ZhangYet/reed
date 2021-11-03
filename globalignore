@@ -1,0 +1,10 @@
+# ide
+.idea/*
+
+# python
+.venv/*
+
+# others
+linux/*
+linux-shopee.git/*
+
