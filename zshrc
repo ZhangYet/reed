@@ -42,4 +42,7 @@ export PATH=${PATH}:~/.user_bin
 # alias
 [ -f ~/.alias ] && source ~/.alias
 
+# env
+[ -f ~/.env ] && source ~/.alias 
+
 echo "all config loaded"
