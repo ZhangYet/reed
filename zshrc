@@ -43,6 +43,6 @@ export PATH=${PATH}:~/.user_bin
 [ -f ~/.alias ] && source ~/.alias
 
 # env
-[ -f ~/.env ] && source ~/.alias 
+[ -f ~/.env ] && source ~/.env
 
 echo "all config loaded"
