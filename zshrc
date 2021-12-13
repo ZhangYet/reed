@@ -23,6 +23,7 @@ antigen bundle fzf
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle djui/alias-tips
 antigen bundle arzzen/calc.plugin.zsh
+antigen bundle zsh-users/zsh-completions
 
 antigen theme ys
 
@@ -41,5 +42,8 @@ export PATH=${PATH}:~/.user_bin
 
 # alias
 [ -f ~/.alias ] && source ~/.alias
+
+# env
+[ -f ~/.env ] && source ~/.env
 
 echo "all config loaded"
