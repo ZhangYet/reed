@@ -3,8 +3,6 @@ HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=1000
 
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # install antigen 
 ANTIGEN=${HOME}/.antigen.sh
@@ -16,9 +14,8 @@ source $ANTIGEN
 
 # plugin
 antigen use oh-my-zsh
-
+antigen bundle unixorn/fzf-zsh-plugin@main
 antigen bundle git
-antigen bundle fzf
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle djui/alias-tips
