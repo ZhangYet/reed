@@ -3,7 +3,6 @@ HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=1000
 
-
 # install antigen 
 ANTIGEN=${HOME}/.antigen.sh
 if [ ! -f ${ANTIGEN} ]; then
@@ -21,6 +20,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle djui/alias-tips
 antigen bundle arzzen/calc.plugin.zsh
 antigen bundle zsh-users/zsh-completions
+antigen bundle unixorn/fzf-zsh-plugin@main
 
 antigen theme ys
 
