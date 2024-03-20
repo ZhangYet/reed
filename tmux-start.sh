@@ -21,3 +21,5 @@ window=3
 tmux new-window -t $window -n 'remote'
 window=4
 tmux new-window -t $window -n 'book'
+
+tmux attach -t working
