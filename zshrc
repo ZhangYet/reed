@@ -43,4 +43,9 @@ export PATH=${PATH}:~/.user_bin
 # env
 [ -f ~/.env ] && source ~/.env
 
+# other plugin
+[ -f ~/.other ] && source ~/.other
+
 echo "all config loaded"
+
+[[ -s "/home/dantezy/.gvm/scripts/gvm" ]] && source "/home/dantezy/.gvm/scripts/gvm"
