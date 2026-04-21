@@ -3,7 +3,7 @@ HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=1000
 
-# install antigen 
+# install antigen
 ANTIGEN=${HOME}/.antigen.sh
 if [ ! -f ${ANTIGEN} ]; then
     echo "installing antigen"
